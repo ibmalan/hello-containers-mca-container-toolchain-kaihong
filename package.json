@@ -1,16 +1,19 @@
 {
-  "name": "docker-hello",
-  "private": true,
-  "version": "0.0.1",
-  "description": "Basic hello world application for Node.js",
-  "author": "Robbie Minshall <rjminsha@us.ibm.com>",
+  "name": "web-app-mca-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "Anton Aleksandrov",
+  "license": "Apache-2.0",
   "dependencies": {
-    "express": "3.4.8",
-    "mocha": "*",
-    "should": "*",
-    "nconf":  "*",
-    "validator": "*",
-    "jquery":"*",
-    "request-json":"*"
+    "express": "^4.14.0",
+    "express-session": "^1.14.2",
+    "jsonwebtoken": "^7.1.9",
+    "log4js": "^1.0.1",
+    "pug": "^2.0.0-beta6",
+    "request": "^2.78.0"
   }
 }

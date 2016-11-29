@@ -19,6 +19,7 @@ MAINTAINER Robbie Minshall "rjminsha@us.ibm.com"
 ADD package.json /app/package.json 
 RUN cd /app && npm install  
 ADD app.js /app/app.js
+ADD views/index.pug views/index.pug
 ENV WEB_PORT 80
 EXPOSE  80
 

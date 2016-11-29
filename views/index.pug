@@ -1,0 +1,14 @@
+#Home
+
+    h1 Welcome to this awesome website. this is for MCA testing!!!!!!
+
+    if isAuthenticated
+        h3 Hey! We know you!
+        h3= name
+        img(src=""+photo)
+        hr
+        button(onclick="window.location='/logout'") Logout
+    else
+        h3 We don't know who you are :(
+        hr
+        button(onclick="window.location='/login'") Login
