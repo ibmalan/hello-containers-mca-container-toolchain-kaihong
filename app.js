@@ -22,9 +22,9 @@ const pug = require('pug');
 var logger = log4js.getLogger("MyApp");
 
 // Define properties required for OAuth flows
-var clientId = "4b07cfe1-3875-419c-a0a2-8fb0a7b43dff";
-var clientSecret = "MDlkYjZkYjAtOGVkOS00MjcxLWE5ZTMtMWNlODVhMDQ0MDUy";
-var callbackUri = "http://hello-containers-simple-container-toolchain-1480387789477.mybluemix.net/oauth/callback";
+var clientId = "c7e4ff93-39db-45ec-a586-ae7c36bd307b";
+var clientSecret = "ZDIwMDY4NGMtOWMxNS00ZDA4LTk4OTYtZTU1ZmU1NmYxNjg5";
+var callbackUri = "http://hello-containers-mca-container-toolchain-kaihong.mybluemix.net/oauth/callback";
 var authzEndpoint = "https://mobileclientaccess.ng.bluemix.net/oauth/v2/authorization";
 var tokenEndpoint = "https://mobileclientaccess.ng.bluemix.net/oauth/v2/token";
 
