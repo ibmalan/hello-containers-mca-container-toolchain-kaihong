@@ -21,7 +21,7 @@ RUN cd /app && npm install
 ADD app.js /app/app.js
 ADD views/index.pug views/index.pug
 ENV WEB_PORT 80
-EXPOSE  80
+EXPOSE  443
 
 # Define command to run the application when the container starts
 CMD ["node", "/app/app.js"] 
